@@ -20,7 +20,7 @@ ls | tr '[a-z]' '[A-Z]'
 ~2. Wyświetl listę praw dostępu do plików w aktualnym katalogu, ich rozmiar i nazwę.
 
 ```sh
-find . -not -type d -maxdepth 1 -exec ls -l '{}' ';' | cut -d ' ' -f1,5,9
+find . -type f -exec ls -l '{}' ';' | cut -d ' ' -f1,5,9
 ```
 ?
 
