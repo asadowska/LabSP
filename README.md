@@ -37,7 +37,7 @@ ls -S
 4\. Wyświetl zawartość pliku /etc/passwd posortowaną według numerów UID w kolejności od największego do najmniejszego.
 
 ```sh
-sort -t : -n -k3 -r /etc/passwd
+sort -t: -k3 -nr /etc/passwd
 ```
 
 5\. Wyświetl zawartość pliku /etc/passwd posortowaną najpierw według numerów GID w kolejności od największego do najmniejszego, a następnie UID.
